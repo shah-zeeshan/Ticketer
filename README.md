@@ -1,6 +1,6 @@
 # QR Code Email Sender
 
-This project is a web application that allows users to upload a CSV file containing email addresses and serial numbers. The application generates a unique QR code for each entry, combines the serial number, email, and date, and sends an email with the QR code attached to each email address. The QR code is also embedded in the body of the email.
+This project is a web application that allows users to upload a CSV file containing email addresses and serial numbers. The application generates a unique QR code for each entry and sends an email with the QR code attached to each email address. The QR code is also embedded in the body of the email.
 
 ## Features
 
