@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload CSV and Send Emails</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo" class="logo">
+  </header>
+  <div class="container">
+    <h1>Upload CSV and Send Emails</h1>
+    <form id="upload-form" action="/upload-csv" method="post" enctype="multipart/form-data">
+      <label for="csv-file">Choose CSV file:</label>
+      <input type="file" id="csv-file" name="csv-file" accept=".csv" required>
+      <button type="submit">Go</button>
+    </form>
+  </div>
+  <footer>
+    Uneasy lies the head that wears the crown.
+  </footer>
+</body>
+</html>
